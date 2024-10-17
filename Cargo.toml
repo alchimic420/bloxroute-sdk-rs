@@ -11,11 +11,11 @@ readme = "README.md"
 
 [dependencies]
 async-recursion = "1.1.1"
-futures-util = "0.3.30"
-reqwest = { version = "0.12.5", features = ["json"] }
-serde = { version = "1.0.205", features = ["derive"] }
-serde_json = "1.0.122"
-tokio = { version = "1.39.2", features = ["full"] }
+futures-util = "0.3.24"
+reqwest = { version = "0.11.22", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.38.0", features = ["full"] }
 tokio-tungstenite = { version = "0.23.1", features = ["native-tls"] }
 
 [[example]]
