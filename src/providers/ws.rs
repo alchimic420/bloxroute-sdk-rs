@@ -57,7 +57,7 @@ impl BloxrouteWsClient {
         match connect_async(req).await {
             Ok((stream, _)) => {
                 let (write, read) = stream.split();
-                println!("Successfully connected to bloxroute");
+                //println!("Successfully connected to bloxroute");
                 let client = Self {
                     auth_header,
                     endpoint,
